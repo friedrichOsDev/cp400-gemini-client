@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "clangd.path": "clangd",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}",
+        "--query-driver=/usr/bin/sh-elf-*,/opt/**/sh-elf-*"
+    ]
+}

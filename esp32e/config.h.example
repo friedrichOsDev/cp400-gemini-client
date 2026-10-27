@@ -1,0 +1,4 @@
+#pragma once
+#define SSID "***"
+#define PASSWD "***"
+#define GEMINI_API_KEY "***"

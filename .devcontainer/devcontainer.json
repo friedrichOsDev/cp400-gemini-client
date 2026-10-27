@@ -1,0 +1,13 @@
+{
+    "name": "SH4 Cross",
+    "image": "sh4-cross",
+    "customizations": {
+        "vscode": {
+            "extensions": ["llvm-vs-code-extensions.vscode-clangd"]
+        }
+    },
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "workspaceFolder": "/workspace"
+}
